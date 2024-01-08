@@ -1,0 +1,91 @@
+@media(max-width: 700px){
+    
+    /* nav */
+    .nav__menu{
+        display: none;
+    }
+
+    .toggle_nav{
+        display: block;
+    }
+
+    .dropdown__menu{
+        display: block;
+    }
+
+
+    /* profile */
+    #profile{
+        grid-template-columns: auto;
+        /* grid-template-rows: max-content; */
+    }
+    
+}
+
+
+@media(max-width: 576px){
+
+    .dropdown__menu{
+        left: 2rem;
+        width: unset;
+    }
+
+
+    /* contact me section */
+    .contact__container{
+        grid-template-columns: auto;
+    }
+
+    .contact__informations{
+        display: flex;
+        column-gap: 1rem;
+        /* grid-template-columns: repeat(2,1fr); */
+    }
+
+    .contact__subtitle{
+        display: none;
+    }
+
+    .contact__information{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact__form{
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+}
+
+
+@media(max-width: 450px){
+
+    .about-containers{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .details-container{
+        height: 150px;
+    }
+
+    .contact__inputs{
+        /* grid-template-columns: max-content; */
+        /* width: inherit; */
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+}
+
+
+@media(max-width: 400px){
+
+    .services__content{
+        width: 80%;
+    }
+}
