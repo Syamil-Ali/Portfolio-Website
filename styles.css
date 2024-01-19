@@ -178,8 +178,9 @@ a{
     min-height: 90vh;
     padding-left: .75rem;
     padding-right: .75rem;
-
-
+    /* below is to reverse position grid */
+    grid-auto-flow: dense;
+    direction: rtl;
 }
 
 .profile-pic__container{
@@ -190,7 +191,7 @@ a{
 
 .profile-pic{
     border-radius: 50%;
-    width: 15rem;
+    width: 20rem;
 }
 
 .profile-text__container{

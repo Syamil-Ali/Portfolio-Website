@@ -19,6 +19,10 @@
         grid-template-columns: auto;
         /* grid-template-rows: max-content; */
     }
+
+    .profile-pic{
+        width: 15rem;
+    }
     
 }
 
